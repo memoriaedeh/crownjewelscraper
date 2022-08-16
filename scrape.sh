@@ -16,6 +16,6 @@ done
 cat /etc/passwd
 cat /etc/shadow
 
-find / -perm /4000
-find / -perm /2000
-find / -perm /6000
+find / -perm /4000 -print 2>/dev/null
+find / -perm /2000 -print 2>/dev/null
+find / -perm /6000 -print 2>/dev/null
